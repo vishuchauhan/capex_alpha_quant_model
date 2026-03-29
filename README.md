@@ -1,13 +1,10 @@
-# capex_alpha_quant_model
-Multi-agent quantitative strategy capturing capex-driven alpha using financial signals, NLP insights, and game-theoretic industry dynamics with realistic backtesting.
-
-# 📊 Capex Alpha: Multi-Agent Quant Strategy
+# Capex Alpha: Multi-Agent Quant Strategy
 
 A **multi-agent quantitative investment framework** designed to capture **alpha from capex-driven growth**, combining financial signals, NLP insights, and game-theoretic industry dynamics.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project was built to answer a real-world investing question:
 
@@ -17,7 +14,7 @@ Instead of using static screening rules, this framework models markets as a **dy
 
 ---
 
-## 🧠 Core Idea
+## Core Idea
 
 Capex is a **forward-looking signal**:
 
@@ -30,13 +27,13 @@ However:
 * Industry dynamics (leader vs follower) matter
 * Market narratives influence pricing
 
-👉 This model captures all three.
+This model captures all three.
 
 ---
 
-## ⚙️ Architecture (Multi-Agent System)
+## Architecture (Multi-Agent System)
 
-### 1. 📈 Financial Agent
+### 1. Financial Agent
 
 Captures **real investment intensity**
 
@@ -48,7 +45,7 @@ Captures **real investment intensity**
 
 ---
 
-### 2. 📰 NLP Agent
+### 2. NLP Agent
 
 Captures **market narratives**
 
@@ -59,7 +56,7 @@ Captures **market narratives**
 
 ---
 
-### 3. ♟️ Strategy Agent (Game Theory)
+### 3. Strategy Agent (Game Theory)
 
 Captures **competitive positioning**
 
@@ -73,11 +70,11 @@ Captures **competitive positioning**
 
 ---
 
-## 🔢 Scoring Framework (Quant Grade)
+## Scoring Framework (Quant Grade)
 
 All signals are combined using:
 
-### ✅ Cross-Sectional Z-Scoring
+### Cross-Sectional Z-Scoring
 
 * Standardizes signals across stocks
 * Removes scale bias
@@ -91,7 +88,7 @@ Capex Score = 0.5 * Financial_Z + 0.3 * Strategy_Z + 0.2 * NLP_Z
 
 ---
 
-## 📊 Backtesting Framework
+## Backtesting Framework
 
 Designed to mimic real-world investing:
 
@@ -102,7 +99,7 @@ Designed to mimic real-world investing:
 
 ---
 
-## 💰 Realistic Adjustments
+## Realistic Adjustments
 
 To avoid “fake alpha”, the model includes:
 
@@ -112,7 +109,7 @@ To avoid “fake alpha”, the model includes:
 
 ---
 
-## 📈 Performance (2020–2024)
+## Performance (2020–2024)
 
 * **Sharpe Ratio:** ~1.2
 * **Max Drawdown:** ~-28%
@@ -123,24 +120,24 @@ To avoid “fake alpha”, the model includes:
 
 ---
 
-## 📉 Additional Metrics
+## Additional Metrics
 
-### 🔁 Turnover Analysis
+### Turnover Analysis
 
 * Measures trading intensity
 * Ensures realistic implementation
 
-### 💸 Transaction Costs
+### Transaction Costs
 
 * Applied at rebalance points
 
-### 📊 Information Coefficient (IC)
+### Information Coefficient (IC)
 
 * Measures predictive power of signals
 
 ---
 
-## 🧩 Alpha Decomposition
+## Alpha Decomposition
 
 Breaks down where returns come from:
 
@@ -152,7 +149,7 @@ Breaks down where returns come from:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 capex_alpha_model/
@@ -190,7 +187,7 @@ capex_alpha_model/
 
 ---
 
-## 📊 Outputs
+## Outputs
 
 ### Excel Outputs
 
@@ -216,7 +213,7 @@ capex_alpha_model/
 
 ---
 
-## 🏗️ Key Insights
+## Key Insights
 
 * Alpha is driven mainly by:
 
@@ -226,7 +223,7 @@ capex_alpha_model/
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * NLP is proxy-based (not earnings call level)
 * No sector neutrality / risk model
@@ -234,7 +231,7 @@ capex_alpha_model/
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 * Earnings call NLP (transformer-based)
 * Risk model (beta-neutral, volatility targeting)
@@ -244,7 +241,7 @@ capex_alpha_model/
 
 ---
 
-## 💡 Summary
+##  Summary
 
 This project demonstrates how to move from:
 
@@ -254,7 +251,7 @@ It is designed to replicate how **quant hedge funds research and validate strate
 
 ---
 
-## 🤝 Connect
+## Connect
 
 If you're working in:
 
@@ -266,4 +263,4 @@ Would love to discuss ideas and get feedback.
 
 ---
 
-### ⭐ If you found this useful, consider starring the repo!
+### If you found this useful, consider starring the repo!
